@@ -16,7 +16,7 @@ GAME RULES:
 var scores, currentPlayer, currentScore, playing;
 var number = 0;
 init();
-alert(" WELCOME!!! The game has 2 players, playing in rounds. In each turn, a player rolls a dice as many times as he whishes. Each result gets added to his ROUND score. BUT, if the player rolls a 1, all his ROUND score gets lost. Also, If any player rolls 6 two time in a row, then the TOTAL score will reset to 0. After that, it's the next player's turn. The player can choose to 'Hold', which means that his ROUND score gets added to his TOTAL score. After that, it's the next player's turn. The first player to reach TARGET points on TOTAL score wins the game. By default, a player who scores 100 points first, will be the WINNER. You can also set the TARGET SCORE manually if you want. There is one input box provided to set the TARGET SCORE. GUD LUCK!!");
+alert(" WELCOME!!! The game has 2 players, playing in rounds. In each turn, a player rolls a dice as many times as he whishes. Each result gets added to his ROUND score. BUT, if the player rolls a 1, all his ROUND score gets lost. Also, If any player rolls 6 two times in a row, then the TOTAL score will reset to 0. After that, it's the next player's turn. The player can choose to 'Hold', which means that his ROUND score gets added to his TOTAL score. After that, it's the next player's turn. The first player to reach TARGET points on TOTAL score wins the game. By default, a player who scores 100 points first, will be the WINNER. You can also set the TARGET SCORE manually if you want. There is one input box provided to set the TARGET SCORE. GUD LUCK!!");
 
 var name1 = prompt("Enter player 1 name!");
 var name2 = prompt("Enter player 2 name!");
